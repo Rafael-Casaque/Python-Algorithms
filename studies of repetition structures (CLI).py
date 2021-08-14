@@ -28,4 +28,3 @@ while True:
 
 input('\n\nDigite qualquer tecla para encerrar o programa: ')
 
-print('Teste')
