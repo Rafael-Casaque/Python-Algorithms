@@ -20,3 +20,11 @@ else:
     print('Você está reprovado :(')
 input('\n\nDigite qualquer tecla para encerrar o programa: ')
 
+#maneira mais simple de se fazer
+
+#media = 0
+#for _ in range(qn):
+#    nota = float(input('Digite a nota: '))
+#    media = media + nota
+#mf = media/qn
+#print(mf)
