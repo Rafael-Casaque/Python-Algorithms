@@ -2,7 +2,7 @@ rmb = float(input('Digite sua renda mensal bruta: '))
 
 vbfa = rmb+rmb*0.3
 vdmi = rmb*0.11
-vafg = rmb*0.085*6
+vafg = rmb*0.085*6 
 
 print('\n\no valor bruto que você receberá no final do ano considerando décimo terceiro e um terço de férias será de: R$ ', vbfa)
 print('\no valor de desconto mensal de INSS é de R$ ', vdmi)
