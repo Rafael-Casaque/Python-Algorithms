@@ -27,6 +27,7 @@ print(separar_palavras[2]) #imprime o vetor desejado
 # uso de váriaveis em print
 print(f'Dividindo {d} por {e} o resultado é: {d/e}')
 
+input('\n\nDigite qualquer tecla para encerrar o programa: ')
 
 
 

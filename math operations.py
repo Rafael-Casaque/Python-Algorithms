@@ -12,3 +12,5 @@ print(math.factorial(numero)) #função para retornar a fatorial
 print(math.radians(numero)) #função para converter o angulo em radianos (pi)
 print(math.hypot(3,4)) #função para retornar o valor da hipotenusa
 print(math.degrees(3.14)) #função para converter o angulo em graus
+
+input('\n\nDigite qualquer tecla para encerrar o programa: ')
