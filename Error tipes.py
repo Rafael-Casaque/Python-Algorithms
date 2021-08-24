@@ -17,3 +17,5 @@ while True: # estrutura de validação, enquanto houver erro, continuára repeti
     else:   # dado que será emitido caso não haja erro 
         print('Segue o baile')
         break
+
+input('\n\nDigite qualquer tecla para encerrar o programa: ')

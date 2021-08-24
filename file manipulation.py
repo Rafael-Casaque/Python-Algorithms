@@ -19,7 +19,8 @@ nome = {}
 with open('teste3.txt', 'w') as text4:
     for value, key in alunos.items():
         text4.write(f'Nome: {value}, Nota: {key} ') 
-    
+
+input('\n\nDigite qualquer tecla para encerrar o programa: ')
 
 
 

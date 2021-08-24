@@ -37,3 +37,5 @@ def funcao5(cat1,cat2):
 print(f'A hipotenusa do cateto 30 e 40 é {funcao5(30,40)}')
 
 help(funcao5) # chama a descrição da função, importante para documentar
+
+input('\n\nDigite qualquer tecla para encerrar o programa: ')

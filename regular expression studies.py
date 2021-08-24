@@ -62,3 +62,5 @@ frase5 = ' 12 1232 12342 12212 13231-124 14634-642 18124-753 https://www.google.
 print(re.findall('\d+', frase5))
 print(re.findall('\d{5}-\d{3}', frase5))
 print(re.findall('https?://[A-Z-a-z0-9./]+', frase5))
+
+input('\n\nDigite qualquer tecla para encerrar o programa: ')

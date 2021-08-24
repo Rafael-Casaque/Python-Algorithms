@@ -22,4 +22,6 @@ for i in range(1,4):
 funcao1 =  funcao_quadratica(valores[0],valores[1],valores[2])
 
 print(funcao1.delta())
+
+input('\n\nDigite qualquer tecla para encerrar o programa: ')
     

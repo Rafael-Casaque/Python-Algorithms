@@ -38,3 +38,5 @@ print(t2.tipo())
 print(t3.tipo())
 print(t4.tipo())
 print(t5.tipo())
+
+input('\n\nDigite qualquer tecla para encerrar o programa: ')

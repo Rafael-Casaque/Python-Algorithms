@@ -19,5 +19,4 @@ else:
     print('Erro, você não digitou a operação corretamente!')
 
 print('\nA operação de', operation, 'entre ',n1,' e ',n2, 'é igual a: ',n3)
-print('\n\nDigite qualquer tecla para fechar o programa')
-input()
+input('\n\nDigite qualquer tecla para encerrar o programa: ')
