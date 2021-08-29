@@ -12,4 +12,10 @@ if sum(idades)/len(idades)>=0 and sum(idades)/len(idades)<=25:
 if sum(idades)/len(idades)>=26 and sum(idades)/len(idades)<=60:
     print(f"\nEssa é uma turma adulta, sua média de idade é: {sum(idades)/len(idades)}")
 if sum(idades)/len(idades)>60:
+<<<<<<< HEAD
     print(f"\nEssa é uma turma idosa, sua média de idade é: {sum(idades)/len(idades)}")
+
+    input('\n\nDigite qualquer tecla para encerrar o programa: ')
+=======
+    print(f"\nEssa é uma turma idosa, sua média de idade é: {sum(idades)/len(idades)}")
+>>>>>>> be20a3946e33dbb3c2d7a86404062c651a695ca4

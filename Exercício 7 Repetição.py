@@ -9,4 +9,9 @@ for i in range(1,n+1):
     soma = i/j    
     j = i+i+1    
     somatotal += soma    
+<<<<<<< HEAD
 print(somatotal)
+input('\n\nDigite qualquer tecla para encerrar o programa: ')
+=======
+print(somatotal)
+>>>>>>> be20a3946e33dbb3c2d7a86404062c651a695ca4

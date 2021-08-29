@@ -12,4 +12,10 @@ while True:
             lista.append(numero)
     except ValueError:
         print('\nEsse valor não é inteiro!')
+<<<<<<< HEAD
 print(f"\nA média aritmética dos valores digitados é: {sum(lista)/len(lista)}")
+
+input('\n\nDigite qualquer tecla para encerrar o programa: ')
+=======
+print(f"\nA média aritmética dos valores digitados é: {sum(lista)/len(lista)}")
+>>>>>>> be20a3946e33dbb3c2d7a86404062c651a695ca4
