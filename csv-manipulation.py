@@ -20,3 +20,6 @@ with open('teste.csv','w',encoding='utf-8') as teste:   #sobrescreve o arquivo c
     for i in range(0,len(lista)):                       #iteração onde o range é de 0 até 0 último registro da lista
         teste.write(f'\n{lista[i]}')                    #escreve cada posição da lista
 print(teste_db)                                         #printa a base de dados modificada
+print(teste_db['idade'].mean())                         #printa a média das idades
+print(teste_db['idade'].min())                          #printaa menor idade
+print(teste_db.loc[teste_db['idade']==teste_db['idade'].min()]) #printa o nome da pessoa mais nova
