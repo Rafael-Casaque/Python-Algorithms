@@ -23,3 +23,4 @@ print(teste_db)                                         #printa a base de dados 
 print(teste_db['idade'].mean())                         #printa a média das idades
 print(teste_db['idade'].min())                          #printaa menor idade
 print(teste_db.loc[teste_db['idade']==teste_db['idade'].min()]) #printa o nome da pessoa mais nova
+print(teste_db.loc[teste_db['sexo']=='feminino','idade'].mean()) #retorna a média das idades apenas de pessoas com sexo feminino
