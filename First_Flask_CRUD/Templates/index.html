@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Flask CRUD</title>
+    <link rel="shortcut icon" href="../static/img/icon.png">
+
+    <style>
+        a{
+            text-decoration: none;
+        }
+        body{            
+            background-image: url(../static/img/img.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        h2{
+            font-family: sans-serif;
+            font-size: 25px;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            text-shadow: 2px 2px 10px rgb(0, 255, 242);
+        }
+        fieldset{
+            margin: 10% 25% 0% 25%;       
+            background-color: rgba(0, 0, 0, 0.5);     
+        }
+        button{
+            display: block;            
+            margin: 1% 0% 1% 27%;     
+            background-color: rgb(1, 17, 17);                       
+            color: white;            
+            box-shadow: rgb(256,256,256) 0px 1px 25px 5px inset;
+        }
+        .create{
+            padding: 2.5% 20% 2.5% 20%;            
+        }
+        .read{
+            padding: 2.5% 20.61% 2.5% 20.61%;
+        }
+        .update{
+            padding: 2.5% 19.75% 2.5% 19.75%;
+        }
+        .delete{
+            padding: 2.5% 20.1% 2.5% 20.1%;            
+        }
+
+    
+    </style>
+</head>
+<body>
+        <fieldset>
+            <h2>This is my first Flask CRUD</h2>
+            <hr>
+            <a href="http://127.0.0.1:5000/create"><button class="create">Create</button></a>
+            <a href="http://127.0.0.1:5000/read"><button class="read">Read</button></a>
+            <a href="http://127.0.0.1:5000/update"><button class="update">Update</button></a>
+            <a href="http://127.0.0.1:5000/delete"><button class="delete">Delete</button></a>
+        </fieldset>
+</body>
+</html>

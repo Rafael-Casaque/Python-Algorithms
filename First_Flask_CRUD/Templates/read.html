@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Flask CRUD - Read</title>
+    <link rel="shortcut icon" href="../static/img/icon.png">
+    <style>
+        body{
+            background-image: url(../static/img/img2.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        fieldset{
+            margin: 8% 25% 10% 25%;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+        caption{
+            text-align: center;
+            color: white;
+            font-family: sans-serif;
+            font-size: 35px;
+        }
+        table{
+            color: white;            
+            margin: auto ;     
+            width: 100%;       
+            text-shadow: 2px 2px 2px black;
+        }
+        td{
+            text-align: center;
+        }
+        th{
+            background-color: rgb(0, 133, 186);
+            font-size: 15px;
+            font-family: sans-serif;
+            text-transform: uppercase;
+        }
+        th,td{
+            border: solid 2px rgba(255, 255, 255, 0.425);
+        }
+        
+    </style>
+</head>
+<body>    
+        <fieldset>
+            <table>
+                <caption>Read</caption>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>Cellphone Number</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for i in range(number_id|length) %}                                                 
+                    <tr>
+                        <td>{{number_id[i]}}</td>                 
+                        <td>{{name[i]}}</td>                      
+                        <td>{{age[i]}}</td>
+                        <td>{{tel[i]}}</td>
+                    </tr>                 
+                    {% endfor %}   
+                </tbody>
+        </fieldset>
+</body>
+</html>
